@@ -1,0 +1,7 @@
+2019-07-13 10:55:06,131 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\admin\appdata\local\continuum\anaconda3\envs\botenvt\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\admin\appdata\local\continuum\anaconda3\envs\botenvt\lib\asyncio\base_events.py", line 482, in run_until_complete
+    raise RuntimeError('Event loop stopped before Future completed.')
+RuntimeError: Event loop stopped before Future completed.
