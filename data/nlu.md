@@ -54,11 +54,11 @@
 - I'm good
 
 ## intent:feed
-- Share some latest technology around the [world](category)?
+- Share some latest technology around the (category)?
 - Share some latest feed in [food](category)?
 - What is going on in [fashion](category)?
-- Tell me some feed about [numpy](category)
-- Tell me some feed about [arts](category)
+- Tell me some feed about [Wadia](category)
+- Tell me some feed about [DY Patil](category)
 - Tell me some feed about [books](category)
 - What is going on in [data Science](category)
 - What is developing in [machine learning](category)

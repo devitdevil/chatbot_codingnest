@@ -9,6 +9,10 @@
 * news
 - utter_ofc
 - action_get_feed
+* thanks
+- utter_anything_else
+* mood_deny
+- utter_bye
 
 
 

@@ -12,4 +12,5 @@ pipeline:
 policies:
   - name: MemoizationPolicy
   - name: KerasPolicy
+    epochs: 25
   - name: MappingPolicy

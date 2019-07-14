@@ -5,3 +5,35 @@ Traceback (most recent call last):
   File "c:\users\admin\appdata\local\continuum\anaconda3\envs\botenvt\lib\asyncio\base_events.py", line 482, in run_until_complete
     raise RuntimeError('Event loop stopped before Future completed.')
 RuntimeError: Event loop stopped before Future completed.
+2019-07-13 13:54:39,266 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\admin\appdata\local\continuum\anaconda3\envs\botenvt\lib\asyncio\base_events.py", line 1062, in create_server
+    sock.bind(sa)
+OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\admin\appdata\local\continuum\anaconda3\envs\botenvt\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\admin\appdata\local\continuum\anaconda3\envs\botenvt\lib\asyncio\base_events.py", line 484, in run_until_complete
+    return future.result()
+  File "c:\users\admin\appdata\local\continuum\anaconda3\envs\botenvt\lib\asyncio\base_events.py", line 1066, in create_server
+    % (sa, err.strerror.lower()))
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): only one usage of each socket address (protocol/network address/port) is normally permitted
+2019-07-13 13:55:47,577 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\admin\appdata\local\continuum\anaconda3\envs\botenvt\lib\asyncio\base_events.py", line 1062, in create_server
+    sock.bind(sa)
+OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\admin\appdata\local\continuum\anaconda3\envs\botenvt\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\admin\appdata\local\continuum\anaconda3\envs\botenvt\lib\asyncio\base_events.py", line 484, in run_until_complete
+    return future.result()
+  File "c:\users\admin\appdata\local\continuum\anaconda3\envs\botenvt\lib\asyncio\base_events.py", line 1066, in create_server
+    % (sa, err.strerror.lower()))
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): only one usage of each socket address (protocol/network address/port) is normally permitted

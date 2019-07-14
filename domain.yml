@@ -26,8 +26,8 @@ actions:
 
 templates:
   utter_greet:
-    - text: Hey, how are you?
-    - text: Hello, How are you doing?
+    - text: Hey Welcome to CodingNest, how are you?
+    - text: Hello Welcome to CodingNest, How are you doing?
   utter_reply:
     - text: I'm doing great. Please let me know what I can do for you.
     - text: I'm doing great. Tell me How can I help you today?
